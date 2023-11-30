@@ -256,7 +256,7 @@ export const projects = [
     description:
       "This project basically implements class components and manages the state accordingly. The player uses a particular option from Rock, Paper, or Scissors and then Computer chooses an option randomly. The logic of scoring and winning is implemented using JSX.",
     image:
-      "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
+      "https://firebasestorage.googleapis.com/v0/b/imageuploads-733f5.appspot.com/o/rps.jpg?alt=media&token=dedd2ef9-7d35-44e6-9da7-54fbce1fa624",
     tags: ["React Js", "CSS", "Node Js", "JSX", "Class Component in React"],
     category: "web app",
     github: "https://github.com/KasiViswanadh119/RockPaperScissorGame",
