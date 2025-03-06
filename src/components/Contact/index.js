@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-import { Snackbar } from '@mui/material';
+//import { Snackbar } from '@mui/material';
 
 const Container = styled.div`
 display: flex;
@@ -126,7 +126,7 @@ const Contact = ()=>{
   const form = useRef();
   const sendEmail = (e) => {
       e.preventDefault();
-      emailjs.sendForm('service_vbjgodd', 'template_zpmbaos', form.current, 'UmUu_YoQTyYTa2PCx')
+      emailjs.sendForm('service_vbjgodd', 'template_zpmbaos', form.current, '8fr0Nu-Knz_Xu6327')
         .then((result) => {
             console.log(result.text);
             e.target.reset();
